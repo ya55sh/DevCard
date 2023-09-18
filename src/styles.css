@@ -1,0 +1,67 @@
+.App {
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+.container {
+  height: auto;
+  width: 400px;
+  max-height: 600px;
+  max-width: 600px;
+  min-height: 250px;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: black solid 4px;
+  color: white;
+  background-color: black;
+}
+
+.picture {
+  display: block;
+  height: 250px;
+  width: auto;
+}
+
+.discription {
+  text-align: center;
+  max-width: 350px;
+  padding: 3px;
+  font-family: Andale Mono, monospace;
+  margin-top: -1rem;
+  margin-left: 1.1rem;
+}
+
+.discription > p {
+  margin-top: -1rem;
+}
+
+.skill {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -0.5rem;
+  height: auto;
+  width: auto;
+  font-family: Andale Mono, monospace;
+}
+
+.skill > span {
+  margin: 0.5rem 1rem;
+  padding: 2px 4px;
+}
+
+.medium {
+  background-color: #8ab32a;
+  border-radius: 4px;
+}
+
+.beginner {
+  background-color: #16aec2;
+  border-radius: 4px;
+}
+
+.expert {
+  background-color: #cf323a;
+  border-radius: 4px;
+}
